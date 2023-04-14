@@ -1,14 +1,6 @@
 package chess;
 
 public class Chess_Board {
-	public String[][] board = {{br, bn, bb, bq, bk, bb, bn, br}, 
-				   {bx, bx, bx, bx, bx, bx, bx, bx}, 
-				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
-				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
-				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
-				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
-				   {wx, wx, wx, wx, wx, wx, wx ,wx}, 
-				   {wr, wn, wb, wq, wk, wb, wn, wr}}; 
 	public String wq = "\u2655";
         public String wr = "\u2656";
         public String wb = "\u2657";
@@ -21,6 +13,14 @@ public class Chess_Board {
         public String bn = "\u265E";
         public String bx = "\u265F";
 	public String vo = " ";
+	public String[][] board = {{br, bn, bb, bq, bk, bb, bn, br}, 
+				   {bx, bx, bx, bx, bx, bx, bx, bx}, 
+				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
+				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
+				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
+				   {vo, vo, vo, vo, vo, vo, vo, vo}, 
+				   {wx, wx, wx, wx, wx, wx, wx ,wx}, 
+				   {wr, wn, wb, wq, wk, wb, wn, wr}};
 	public void board() {
 		System.out.println(" ---------------------------------------");
 		for(int i = 0; i < board.length; i++) {
