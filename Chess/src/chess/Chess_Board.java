@@ -1,6 +1,7 @@
 package chess;
 
 public class Chess_Board {
+	public String wk = "\u2654";
 	public String wq = "\u2655";
         public String wr = "\u2656";
         public String wb = "\u2657";
