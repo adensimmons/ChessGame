@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author adens
+ *
+ */
+module Chess {
+}
